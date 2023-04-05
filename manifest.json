@@ -13,11 +13,10 @@
 			"32": "icon/32.png"
 		}
 	},
-	"permissions": ["scripting"],
 	"web_accessible_resources": [
 		{
 			"resources": ["lib/script.js"],
-			"matches": ["<all_urls>"]
+			"matches": ["https://*.u-folio.com/*"]
 		}
 	],
 	"content_scripts": [
